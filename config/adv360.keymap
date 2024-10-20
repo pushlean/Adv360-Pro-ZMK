@@ -44,7 +44,7 @@
                          &kp TAB   &kp Q   &kp W     &kp E         &kp R   &kp T                &mo 1                                                                              &mo 3   &kp Y          &kp U      &kp I      &kp O      &kp P                           &kp BSLH
                    &mt LCTRL ESC   &kp A   &kp S     &kp D         &kp F   &kp G                &none  &kp HOME  &kp END                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &mo 2   &kp H          &kp J      &kp K      &kp L   &kp SEMI                            &kp SQT
  &mt LEFT_SHIFT LEFT_PARENTHESIS   &kp Z   &kp X     &kp C         &kp V   &kp B                                 &kp INS                         &kp PG_UP                                 &kp N          &kp M  &kp COMMA    &kp DOT   &kp FSLH  &mt RIGHT_SHIFT RIGHT_PARENTHESIS
-                        &kp CAPS   &none   &none  &kp LGUI  &kp LEFT_ALT                    &kp SPACE     &mo 2  &kp DEL                         &kp PG_DN             &tog 2  &kp ENTER          &kp BACKSPACE   &kp RGUI      &none  &kp K_APP                    &kp PRINTSCREEN
+                        &kp CAPS   &none   &none  &kp LGUI  &kp LEFT_ALT                    &kp SPACE     &mo 2  &kp DEL                         &kp PG_DN                &mo  &kp ENTER          &kp BACKSPACE   &kp RGUI      &none  &kp K_APP                    &kp PRINTSCREEN
             >;
         };
 
@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-  &none      &kp F1    &kp F2            &kp F3          &kp F4      &kp F5            &kp F6                                                  &kp F7          &kp F8          &kp F9       &kp F10          &kp F11  &kp F12   &none
- &trans      &trans    &trans      &kp K_VOL_DN    &kp K_VOL_UP  &kp K_MUTE             &none                                                   &none          &trans          &trans        &trans           &trans   &trans  &trans
- &trans  &kp K_PREV  &kp K_PP        &kp K_NEXT  &kp C_AL_FILES      &trans             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &trans  &trans
- &trans      &trans    &trans  &kp K_CALCULATOR          &trans      &trans                            &trans                  &trans                          &trans          &trans        &trans           &trans   &trans  &trans
- &trans      &trans    &trans            &trans          &trans                        &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans   &trans  &trans
+  &none          &kp F1            &kp F2               &kp F3           &kp F4      &kp F5            &kp F6                                                  &kp F7          &kp F8          &kp F9       &kp F10          &kp F11  &kp F12   &none
+ &trans          &trans            &trans    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE             &none                                                   &none          &trans          &trans        &trans           &trans   &trans  &trans
+ &trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE           &kp C_NEXT   &kp C_AL_FILES      &trans             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &trans  &trans
+ &trans          &trans            &trans  &kp C_AL_CALCULATOR           &trans      &trans                            &trans                  &trans                          &trans          &trans        &trans           &trans   &trans  &trans
+ &trans          &trans            &trans               &trans           &trans                        &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans   &trans  &trans
             >;
         };
 
